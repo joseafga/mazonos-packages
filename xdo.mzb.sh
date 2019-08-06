@@ -15,9 +15,8 @@ MAINTAINER='José Almeida <jose.afga@gmail.com>'
 # download info
 URL="https://github.com/baskerville/xdo/archive/${VERSION}.tar.gz"
 CHECKSUM_MD5='26a864375c6e703b87a2ff6d6f7a6068'
-#CHECKSUM_SHA256='b661229f0457939d3867cca1664c5671ae959b309feb58abe9142229c8c7ffb4'
+# CHECKSUM_SHA256=''
 
-# from makefile: -lxcb -lxcb-util -lxcb-icccm -lxcb-ewmh -lxcb-xtest
 deps=('libxcb' 'xcb_util' 'xcb_util_wm')
 makedeps=()
 
