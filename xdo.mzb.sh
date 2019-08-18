@@ -1,4 +1,5 @@
-# xdo mzbuild 0.1.0a
+#!/usr/bin/mzbuild
+# xdo mzbuild 0.2.0a
 #
 # contribuitors:
 #   José Almeida <jose.afga@gmail.com>
