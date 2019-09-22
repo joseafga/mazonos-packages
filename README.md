@@ -1,3 +1,3 @@
 MAZONOS-PACKAGES
 ==========
-Personal repository with my mzbuild packages recipes.
+Personal repository with my MZBuild recipes for Mazon OS packages.
