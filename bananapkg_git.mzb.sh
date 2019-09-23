@@ -24,5 +24,7 @@ package() {
     install -vDm644 -t "${bindir}/usr/share/man/pt_BR/man8/" 'banana.8'
     install -vDm644 -t "${bindir}/usr/libexec/banana/" {core,help}'.sh'
     install -vDm644 -t "${bindir}/etc/banana/" 'banana.conf'
-    mkdir -vp "${bindir}/var/lib/banana/list" "${bindir}/var/lib/banana/desc" "${bindir}/var/lib/banana/remove"
+    mkdir -vp "${bindir}/var/lib/banana/"{list,desc,remove}
+
+    install -vDm644 -t "${bindir}/usr/share/licenses/${NAME}/" 'LICENSE'
 }
