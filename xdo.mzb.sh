@@ -23,11 +23,13 @@ makedeps=()
 
 build() {
     cd "${NAME}-${VERSION}"
+
     make PREFIX=/usr
 }
 
 package() {
     cd "${NAME}-${VERSION}"
+
     make PREFIX=/usr DESTDIR="$bindir" install
     install -Dm644 LICENSE "${bindir}/usr/share/licenses/${NAME}/LICENSE"
 }
