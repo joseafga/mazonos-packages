@@ -7,7 +7,7 @@
 NAME='bananapkg_git'
 VERSION="${VERSION:-r160.3e2d238}"
 BUILD="${BUILD:-1}"
-DESCRIPTION='Low-level package manager written in shell bash'
+DESCRIPTION='Low-level package manager written in shell bash.'
 LICENSE='MIT'
 HOMEPAGE='https://bananapkg.github.io'
 MAINTAINER='José Almeida <jose.afga@gmail.com>'
