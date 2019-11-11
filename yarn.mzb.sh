@@ -20,9 +20,9 @@ makedeps=()
 package() {
     cd "${NAME}-v${VERSION}"
 
-    mkdir -vp "${bindir}/usr/lib/node_modules/yarn" "${bindir}/usr/bin"
-    cp -vrp * "${bindir}/usr/lib/node_modules/yarn"
-    install -vDm644 -t "${bindir}/usr/share/licenses/${NAME}/" 'LICENSE'
+    mkdir -p "${bindir}/usr/lib/node_modules/yarn" "${bindir}/usr/bin"
+    cp -rp * "${bindir}/usr/lib/node_modules/yarn"
+    install -Dm644 -t "${bindir}/usr/share/licenses/${NAME}/" 'LICENSE'
 
     # create symlinks to execute globally
     ln -s '/usr/lib/node_modules/yarn/bin/'{yarn,yarnpkg} "${bindir}/usr/bin/"

@@ -28,5 +28,5 @@ package() {
 
     # using default bananapkg installer
     ./install.sh DESTDIR="${bindir}"
-    install -vDm644 -t "${bindir}/usr/share/licenses/${NAME}/" 'LICENSE'
+    install -Dm644 -t "${bindir}/usr/share/licenses/${NAME}/" 'LICENSE'
 }
